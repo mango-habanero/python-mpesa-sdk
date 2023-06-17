@@ -6,8 +6,22 @@ authors = ["mango-habanero <main@mango-habanero.dev>"]
 license = "WTFPL"
 readme = "README.md"
 packages = [{include = "mpesa_sdk"}]
-url = "https://github.com/PhilipWafula/python-mpesa-sdk"
-
+include = ["pyproject.toml", "LICENSE.md", "README.md", "CHANGELOG.md"]
+repository = "https://github.com/PhilipWafula/python-mpesa-sdk"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: Public Domain",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+maintainers = ["mango-habanero <main@mango-habanero.dev>"]
+keywords = ["mpesa", "sdk", "daraja", "python"]
 
 [tool.semantic_release]
 branch = "main"
@@ -19,7 +33,6 @@ remove_dist = false
 upload_to_pypi = false
 upload_to_release = true
 version_variable = "pyproject.toml:version"
-
 
 [tool.poetry.dependencies]
 python = "^3.10"
