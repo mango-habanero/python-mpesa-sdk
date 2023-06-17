@@ -1,0 +1,23 @@
+# byte-compiled files
+*/__pycache__/
+*/.pytest_cache/
+
+# distribution packaging
+dist
+*.egg-info/
+
+# env files
+.env
+
+# ide-user-sepcific files
+.idea
+
+# sphinx documentation
+docs/_build/
+
+# testing files
+**/.coverage
+**/.mypy_cache/
+**/.tox/
+**/htmlcov/
+
