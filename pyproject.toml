@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-mpesa-sdk"
-version = "0.1.0"
+version = "0.0.0"
 description = "Python SDK for Safaricom's Daraja API"
 authors = ["mango-habanero <main@mango-habanero.dev>"]
 license = "WTFPL"
@@ -33,7 +33,11 @@ patch_without_tag = true
 remove_dist = false
 upload_to_pypi = false
 upload_to_release = true
+version_tag_prefix = "v"
 version_variable = "pyproject.toml:version"
+
+[tool.semantic_release.changelog]
+sections = ["feature", "fix", "breaking", "performance", "refactor", "docs", "ci", "test", "other"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
