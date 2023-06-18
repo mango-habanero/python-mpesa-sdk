@@ -20,4 +20,6 @@ docs/_build/
 **/.mypy_cache/
 **/.tox/
 coverage.json
+htmlcov/
+coverage.xml
 
