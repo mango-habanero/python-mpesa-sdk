@@ -1,4 +1,12 @@
 # Python Mpesa SDK
+
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/PhilipWafula/python-mpesa-sdk/ci.yml)
+![Codecov](https://img.shields.io/codecov/c/github/PhilipWafula/python-mpesa-sdk)
+![GitHub](https://img.shields.io/github/license/PhilipWafula/python-mpesa-sdk)
+![GitHub release (release name instead of tag name)](https://img.shields.io/github/v/release/PhilipWafula/python-mpesa-sdk)
+
+
+
 Welcome to the Mpesa Python SDK. This is a Python wrapper for the Safaricom Daraja API.
 It simplifies the process of integrating your Python applications, frameworks, and libraries with the Daraja API.
 
