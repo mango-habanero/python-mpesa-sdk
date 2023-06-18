@@ -19,5 +19,7 @@ docs/_build/
 **/.coverage
 **/.mypy_cache/
 **/.tox/
-**/htmlcov/
+coverage.json
+htmlcov/
+coverage.xml
 
