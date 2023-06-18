@@ -35,7 +35,7 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         with:
-          files: coverage.json
+          files: /home/runner/work/python-mpesa-sdk/python-mpesa-sdk/coverage.json
           verbose: true
 
   release:
